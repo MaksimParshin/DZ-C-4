@@ -21,10 +21,12 @@ void EvenNumber(int[] arr)
             count += 1;
         }
     }
+    string str = string.Join(" ", arr);
+    Console.WriteLine(str);
     Console.WriteLine(count);
 }
 
-EvenNumber(ArrayRnd(5));
+EvenNumber(ArrayRnd(4));
 
 //Задача 36: Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных позициях.
 
@@ -36,6 +38,8 @@ void OddSum(int[] arr)
     {
         count += arr[i];
     }
+    string str = string.Join(" ", arr);
+    Console.WriteLine(str);
     Console.WriteLine(count);
 }
 
